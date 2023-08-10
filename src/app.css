@@ -2,4 +2,101 @@
 @tailwind components;
 @tailwind utilities;
 
-/* a rounded scrollbar with no arrows and transparent background */
+/* dark theme */
+:root {
+	--background-color: #131313de;
+	--text-color: #e8e8e8;
+    --accent: #a7a7a7;
+    --secondary-accent: #6c6c6c;
+}
+
+/* light theme */
+@media (prefers-color-scheme: light) {
+	:root {
+		--background-color: #e8e8e8;
+		--text-color: rgba(19, 19, 19, 0.87);
+        --accent: #727272;
+        --secondary-accent: #aaaaaa;
+	}
+}
+
+/* make font size on body smaller on mobile */
+/* @media (max-width: 640px) {
+	:root {
+		font-size: 10px;
+	}
+} */
+
+:root {
+	font-family: 'JetBrains Mono Variable', sans-serif;
+
+	color-scheme: light dark;
+	color: var(--text-color);
+	background-color: var(--background-color);
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+	height: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #a3a3a3;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.background-color {
+    color: var(--background-color);
+}
+
+.text-color {
+    color: var(--text-color);
+}
+
+.accent-color {
+    color: var(--accent);
+}
+
+.secondary-accent-color {
+    color: var(--secondary-accent);
+}
+
+.badge {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+    font-size: 0.8em;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+    display: inline-block;
+    transition: background-color 0.25s, color 0.25s;
+}
+
+button {
+	border-radius: 8px;
+	border: 2px solid;
+	padding: 0.6em 1.2em;
+    background-color: var(--background-color);
+    color: var(--text-color);
+	font-family: inherit;
+	cursor: pointer;
+	transition: border-color 0.25s;
+}
+
+button:hover {
+	background-color: var(--text-color);
+	color: var(--background-color);
+	transition: background-color 0.25s, color 0.25s;
+}
