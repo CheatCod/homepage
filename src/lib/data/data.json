@@ -1,0 +1,82 @@
+{
+    "lodestone": {
+        "title": "Co-Founder & Lead Developer",
+        "organization": "Lodestone",
+        "description": "Spearheaded a multi-functional team of 12 in the creation of an open-source game server hosting tool that has garnered over 500 stars, more than 6000 downloads, and a dedicate user base of over 500 monthly users. Conceptualized and built an extension system powered by a modified and multithreaded Deno runtime. Managed external integrations and sponsorship talks. Invited to one of the biggest Rust-lang podcast.",
+        "date": {
+            "start": "Dec 2021",
+            "end": "Present"
+        },
+        "link": "https://github.com/Lodestone-Team/lodestone",
+        "type": "project",
+        "tags": [
+            "Rust",
+            "React",
+            "TypeScript",
+            "Deno",
+            "Figma",
+            "SQLite",
+            "WebSocket"
+        ]
+    },
+    "haven": {
+        "title": "Tools Developer Intern",
+        "organization": "Sony Interactive Entertainment - Haven Studio",
+        "description": "Took initiative in the development of an internal code quality analysis tool, which has since been integrated into the studio's CI pipeline. Built a web-based dashboard to visualize and analyze the results of said tool. Worked closely with programmers and artists to develop plugins and tools to improve the workflow of the studio.",
+        "date": {
+            "start": "May 2023",
+            "end": "Aug 2023"
+        },
+        "type": "work",
+        "tags": [
+            "Rust",
+            "C++",
+            "Go",
+            "Unreal Engine 5"
+        ]
+    },
+    "ford": {
+        "title": "Software Developer Intern",
+        "organization": "Ford Canada",
+        "description": "Added support for SVG filter effects to a custom renderer for the SYNC-4 infotainment system. Optimized the rendering pipeline to improve performance and reduce memory usage.",
+        "date": {
+            "start": "May 2022",
+            "end": "Aug 2022"
+        },
+        "type": "work",
+        "tags": [
+            "C++",
+            "Unreal Engine",
+            "Skia",
+            "React Native"
+        ]
+    },
+    "htn2021": {
+        "title": "Campus Goose Tracker",
+        "organization": "Hack The North",
+        "description": "Developed a mobile app to spot and track geese on campus. Used machine learning to identify geese in images.",
+        "date": {
+            "start": "Sept 2021"
+        },
+        "type": "project",
+        "tags": [
+            "Flutter",
+            "TensorFlow",
+            "Express.js"
+        ]
+    },
+    "carfax": {
+        "title": "Android Developer Intern",
+        "organization": "CARFAX Canada",
+        "description": "Created composable and responsive UI components for an unreleased Android app. Implemented a driving mode detection service.",
+        "date": {
+            "start": "May 2021",
+            "end": "Aug 2021"
+        },
+        "type": "work",
+        "tags": [
+            "Android Studio",
+            "Java"
+        ]
+    }
+}
