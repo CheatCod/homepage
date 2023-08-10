@@ -5,7 +5,6 @@
 	import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 	import { faStar } from '@fortawesome/free-solid-svg-icons';
 	import data from '$lib/data/data.json';
-	import pfp from '$lib/assets/logo.jpg';
 	import ExperienceList from './ExperienceList.svelte';
 
 	import ExperienceEntry from './ExperienceEntry.svelte';
@@ -14,9 +13,11 @@
 </script>
 
 <div class="max-w-[960px] px-12 py-8 w-full mx-auto flex flex-col gap-16">
+	<title>More • Peter</title>
+
 	<div class="flex flex-row items-center gap-5">
 		<img
-			src={pfp}
+			src="/logo/logo.jpg"
 			alt="Profile"
 			class="rounded-full min-w-[100px] min-w-h-[100px] max-w-[150px] max-h-[150px]"
 		/>

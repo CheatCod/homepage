@@ -2,10 +2,10 @@
 	import Fa from 'svelte-fa';
 	import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 	import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
-	import resume from '$lib/resume.pdf';
 </script>
 
 <div class="w-full min-h-screen flex items-center justify-center overflow-x-hidden overflow-y-auto">
+	<title>Hello • Peter</title>
 	<div class="max-w-[1680px] p-16 flex flex-col gap-12 items-start">
 		<h1 class="text-4xl">Hello!</h1>
 		<div class="flex flex-col gap-12 items-start">
@@ -29,7 +29,7 @@
 						window.location.href = '/life';
 					}}>More about me</button
 				>
-				<a href={resume} target="_blank" class="underline"> resume.pdf </a>
+				<a href="/resume.pdf" target="_blank" class="underline"> resume.pdf </a>
 			</div>
 			<div class="flex flex-row items-start gap-5">
 				<a href="https://github.com/CheatCod">
